@@ -19,4 +19,14 @@ rasa shell
 - endpoints.yml
 
 ## Licence / usage
-Privé pour l’instant. Ne pas commiter de secrets. Utiliser un `RASA_LICENSE='your_rasa_license_key_here'.
+Dépôt **privé** pour l’instant. Ne pas commiter de secrets (mots de passe, clés API). 
+# Exemple de variables locales (ne pas commiter le vrai .env)
+CRM_API_KEY=
+SUPPORT_EMAIL=support@example.com
+ACTION_SERVER_URL=http://localhost:5055/webhook
+.venv/
+.env
+__pycache__/
+.rasa/
+*.log
+
