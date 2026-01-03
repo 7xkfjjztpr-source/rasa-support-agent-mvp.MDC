@@ -19,4 +19,4 @@ rasa shell
 - endpoints.yml
 
 ## Licence / usage
-Privé pour l’instant. Ne pas commiter de secrets. Utiliser un `.env.example`.
+Privé pour l’instant. Ne pas commiter de secrets. Utiliser un `RASA_LICENSE='your_rasa_license_key_here'.
